@@ -23,40 +23,5 @@ source .venv/bin/activate
 # .venv\Scripts\activate
 pip install -r requirements.txt
 
-## **Variables de entorno (no subir claves)**
-
-Este proyecto usa OpenAI. Crea un archivo .env en la raíz con:
-OPENAI_API_KEY=tu_clave_aqui
-
-Incluimos .env.example como plantilla y .gitignore con .env.
-
-Colab: establece la clave solo en la sesión:
-import os, getpass
-os.environ["OPENAI_API_KEY"] = getpass.getpass("Pega tu OpenAI API key: ")
-Hugging Face Space: Settings → Variables and secrets → añade OPENAI_API_KEY.
-
-Cómo ejecutar
-A) Notebook (recomendado para revisión): abre el badge “Open in Colab” o ejecuta localmente:
-jupyter notebook notebooks/TFM_RAG.ipynb
-B) App (Gradio): ejecuta la demo local:
-python app.py
-y abre la URL que indique Gradio en consola.
-
-Estructura
-.
-├── notebooks/
-│   └── TFM_RAG.ipynb          # Notebook principal (incluye pasos y ejemplos)
-├── app.py                     # Interfaz Gradio para consulta RAG
-├── requirements.txt           # Dependencias del proyecto
-├── .env.example               # Plantilla de variables (sin claves)
-├── .gitignore                 # Ignora .env, entornos, cachés, etc.
-└── README.md
-
-Notas
-Los datos/datasets pesados no se incluyen en GitHub; la demo pública está en el Space enlazado.
-Antes de commitear el notebook puedes limpiar salidas para reducir tamaño.
-
-Licencia
-licencia: MIT
 
 
