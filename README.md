@@ -21,14 +21,10 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows
 # .venv\Scripts\activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 
-## Variables de entorno (no subir claves)
 
-Este proyecto usa OpenAI. Crea un archivo `.env` en la raíz con:
-```env
-OPENAI_API_KEY=tu_clave_aqui
 
 
 
