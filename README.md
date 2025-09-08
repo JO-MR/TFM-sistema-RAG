@@ -23,8 +23,9 @@ source .venv/bin/activate
 # .venv\Scripts\activate
 pip install -r requirements.txt
 
+> Nota: el carácter de cierre es **\`** (acento grave/backtick), **no** comilla simple `'`. Si te lía escribirlo en tu teclado, **cópialo** directamente de aquí: ```
+
 ## **Variables de entorno (no subir claves)**
 Este proyecto usa OpenAI. Crea un archivo `.env` en la raíz con:
 ```env
 OPENAI_API_KEY=tu_clave_aqui
-
