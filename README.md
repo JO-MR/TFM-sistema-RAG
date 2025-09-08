@@ -7,11 +7,11 @@ Repositorio con el código y el notebook del TFM.
 
 ---
 
-## Descargar el código
+## **Descargar el código**
 - **ZIP directo:** https://github.com/JO-MR/TFM-sistema-RAG/archive/refs/heads/main.zip  
 - **Clonar:** `git clone https://github.com/JO-MR/TFM-sistema-RAG.git`
 
-## Requisitos
+## **Requisitos**
 - Python 3.9+
 - `requirements.txt`
 
@@ -24,7 +24,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 ## **Variables de entorno (no subir claves)**
-
 Este proyecto usa OpenAI. Crea un archivo `.env` en la raíz con:
 ```env
 OPENAI_API_KEY=tu_clave_aqui
+
