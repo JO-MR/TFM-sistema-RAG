@@ -1,0 +1,6 @@
+gradio
+openai
+chromadb
+pandas
+numpy
+scikit-learn
