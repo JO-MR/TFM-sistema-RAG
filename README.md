@@ -59,18 +59,4 @@ Antes de commitear el notebook puedes limpiar salidas para reducir tamaño.
 Licencia
 licencia: MIT
 
-## **Variables de entorno (no subir claves)**
-Contenido de la sección…
-
-## **Cómo ejecutar**
-Contenido de la sección…
-
-## **Estructura**
-Contenido de la sección…
-
-## **Notas**
-Contenido de la sección…
-
-## **Licencia**
-Contenido de la sección…
 
