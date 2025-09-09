@@ -15,7 +15,7 @@ Repositorio con el código y el notebook del TFM.
 
 ## **Datos (contratos en PDF) – subida manual**
 El notebook **no descarga automáticamente** los PDFs.  
-Debes **subir manualmente** el archivo `contratos.zip` (contiene 109 PDFs de AENA y ADIF) cuando el notebook lo solicite.
+Debes **subir manualmente** el archivo `contratos.zip` (contiene 110 PDFs de AENA y ADIF) cuando el notebook lo solicite.
 
 - **Descarga del ZIP (para subirlo luego en el notebook):**  
   https://github.com/JO-MR/TFM-sistema-RAG/raw/main/data/contratos.zip
@@ -29,7 +29,7 @@ Debes **subir manualmente** el archivo `contratos.zip` (contiene 109 PDFs de AEN
 > La celda usa `files.upload()` de Colab. Ejemplo:
 > ```python
 > from google.colab import files
-> print("Sube el archivo contratos.zip con los 109 PDFs (AENA y ADIF)...")
+> print("Sube el archivo contratos.zip con los 110 PDFs (AENA y ADIF)...")
 > up = files.upload()             # selecciona 'contratos.zip'
 > zip_path = next(iter(up))       # nombre del archivo subido
 > # ... (descompresión)
